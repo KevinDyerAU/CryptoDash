@@ -9,13 +9,24 @@ https://coinmarketcap.com
 
 https://www.coingecko.com/en
 
-Geo Data Extension
 ############################################################
 
----------------------
+-------------------
+##Exchanges
+-------------------
 Coinbase - NY
+coinbene - Global
+ice3x.co.za - South Africa
+coinspot - Aus
 Bittrex - LA
 BTC Markets - Aus
 STEX - Estonia
-Binance - China - Japan - Taiwan - Malta
----------------------
+Binance - Global (China - Japan - Taiwan - Malta)
+--------------------
+##wallets
+--------------------
+gatehub
+coinomi
+imToken
+--------------------
+############################################################
