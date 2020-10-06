@@ -1,0 +1,30 @@
+Sun Oct  4 20:04:14 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: syntax error.
+[2;37;0m
+Sun Oct  4 20:04:14 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: Bad argument.
+[2;37;0m
+Sun Oct  4 20:04:14 2020  At /marketTickers.gs
+Sun Oct  4 20:04:14 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: syntax error.
+[2;37;0m
+Sun Oct  4 20:04:14 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: Bad argument.
+[2;37;0m
+Sun Oct  4 20:04:14 2020  At /marketTickers.gs
+Mon Oct  5 09:05:39 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: syntax error.
+[2;37;0m
+Mon Oct  5 09:05:39 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: Bad argument.
+[2;37;0m
+Mon Oct  5 09:05:39 2020  At /marketTickers.gs
+Mon Oct  5 09:05:39 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: syntax error.
+[2;37;0m
+Mon Oct  5 09:05:39 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(1): error C1999: Bad argument.
+[2;37;0m
+Mon Oct  5 09:05:39 2020  At /marketTickers.gs
+Tue Oct  6 15:43:28 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(22): error C1999: syntax error.
+[2;37;0m
+Tue Oct  6 15:43:28 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(22): error C1999: Bad argument.
+[2;37;0m
+Tue Oct  6 15:43:28 2020  At /marketTickers.gs
+Tue Oct  6 15:43:28 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(22): error C1999: syntax error.
+[2;37;0m
+Tue Oct  6 15:43:28 2020 [1;31mc:/myprojects/crypto/CryptoDash/marketTickers.gs(22): error C1999: Bad argument.
+[2;37;0m
+Tue Oct  6 15:43:28 2020  At /marketTickers.gs
