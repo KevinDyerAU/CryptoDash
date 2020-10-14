@@ -1,0 +1,54 @@
+1) https://medium.com/@wkrzywiec/database-in-a-docker-container-how-to-start-and-whats-it-about-5e3ceea77e50
+    1.1) docker run --name postgres-docker -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+        - look in to Docker Volumes and Storage
+    1.) https://dbeaver.io/ localhost
+
+2) SQL Tables & Data
+
+CREATE TABLE public.exchange (
+    id int PRIMARY KEY,
+    name varchar(255),
+    description varchar(255),
+    url varchar(255)
+);
+INSERT INTO public.exchange
+    (id, name)
+VALUES
+    (1, 'Binance','Binance Exchange - Largest and highest volumes',''https://www.binance.com/en/fee/schedule),
+    (2, 'BTCMarkets','Australian Exchange','https://www.btcmarkets.net/fees');
+
+CREATE TABLE public.exchangeFees (
+    tokenID int PRIMARY KEY,	
+    exchangeID in,
+	token varchar(255),	
+    fullName varchar(255),	
+    minWithdrawal DOUBLE PRECISION,	
+    depositFee DOUBLE PRECISION,
+    withFee DOUBLE PRECISION,
+    takerFee DOUBLE PRECISION
+);
+INSERT INTO public.exchangeFees
+    (tokenID, exchangeID, token, fullName, minWithdrawal, depositFee, withFee, takerFee)
+values(1, 'AUD', 'Australia Dollar',0,0,0,0.1),
+(2,	1,	'ZAR', 'South African Rand',	0,	0,	0,	0.1),
+(3,	1,	'BTC', 'Bitcoin', 0.001,	0,	0.0004,	0.1),
+(4,	1,	'DOGE', 'Dogecoin',	100,	0,	50,	0.1),
+(5,	1,	'XRP', 'Ripple',	0.5,	0,	0.25,	0.1),
+(6,	1,	'BNB', 'Binance Coin',	0.12,	0,	0,	0.075),
+(7,	1,	'ETH', 'Ethereum',	0.01,	0,	0.005,	0.1),
+(8,	1,	'USDT', 'TetherUS',	10,	0,	4,	0.1),
+(9,	1,	'LTC', 'Litecoin',	0.002,	0,	0.001,	0.1),
+(10,	1,	'XLM', 'tellar Lumens',	0.02,	0,	0.01,	0.1),
+(11,	1,	'LINK', 'ChainLink',	0.74,	0,	0.37,	0.1);
+
+CREATE TABLE public.useCase (
+    id int PRIMARY KEY,
+    code varchar(255),
+    description varchar(255)
+);
+INSERT INTO public.useCase
+    (id, code, description)
+VALUES
+(1,	'3TokenTrade','Arbitrage Opportunities between Tokens on the same exchange after fees'),
+(2,	'tokenExchange','Arbitrage Opportunity for the same token across 2 exchanges after fees'),
+(3,	'exchangeTokenPrediction','Token price prediction based on multiple exchange listing the same token and one exchange price lagging');
