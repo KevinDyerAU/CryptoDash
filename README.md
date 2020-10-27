@@ -46,11 +46,4 @@ See /ccxtReadme.md
 
 https://mixedanalytics.com/knowledge-base/import-coinbase-data-to-google-sheets/
 
-//GDAX (Coinbase Pro)
-https://api.gdax.com/products/XRP-BTC/ticker
-
-
-//CoinBene
-https://github.com/Coinbene/API-SPOT-v2-Documents/blob/master/openapi-spot-rest-en.md
-http://openapi-exchange.coinbene.com/api/exchange/v2/market/tradePair/list
-http://openapi-exchange.coinbene.com/api/exchange/v2/market/ticker/one?symbol=XRP/BTC
+dealing with bid and ask
